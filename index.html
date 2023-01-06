@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Assignment-5</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header class="text-center m-10 text-4xl">
+      <h1>Money <span class="text-lime-500 font-bold">Calculate</span></h1>
+    </header>
+
+    <section class="grid grid-cols-2 gap-10">
+      <div>
+        <img
+          src="https://lh3.googleusercontent.com/2GbpEk328b2PApSIB8Xsn3J8-glIvQQvZ3KIw4kVUoyLUdpiIN1aErysmuH3-8GxY7w"
+          alt=""
+        />
+      </div>
+
+      <div class="parent-div">
+        <div>
+          <h4 class="ml mb-5 text-2xl font-bold">Income</h4>
+          <div>
+            <h5>Income: <input class="border ml-5" type="number" /></h5>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold ml mt-5 text-2xl">Expenses</h4>
+          <div>
+            <h5>Food: <input class="border ml-9 mt-5" type="number" /></h5>
+            <h5>Rent: <input class="border ml-10 mt-5" type="number" /></h5>
+            <h5>Clothes: <input class="border ml-5 mt-5" type="number" /></h5>
+          </div>
+          <button class="calculate-btn">Calculate</button>
+        </div>
+        <h2 class="text-2xl m-10 font-bold">Total Expenses: 5500</h2>
+        <h3 class="ml mb-5 text-2xl font-bold">Blance: 4500</h3>
+
+        <div>
+          <h5>
+            Save: <input class="border ml-1 save-input" type="number" id="" /> %
+            <button class="save-btn">Save</button>
+          </h5>
+          <h3 class="save-remaining m-5 font-bold">Saving Amount: 2000</h3>
+          <h4 class="save-remaining m-5 font-bold">Remaining Blance: 2500</h4>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
